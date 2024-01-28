@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.FaceMeAI" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+
+    <style name="Theme.FaceMeAI" parent="Base.Theme.FaceMeAI" />
+
+    <style name="roundCorner24dpImageStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+    <style name="SplashTheme" parent="@style/AppTheme">
+        <item name="android:screenOrientation">portrait</item>
+    </style>
+    <style name="AppTheme" parent="@style/AppThemeBase">
+        <item name="android:windowBackground">@color/color_black</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="colorAccent">@color/color_yellow</item>
+        <item name="colorControlActivated">@color/color_yellow</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppThemeBase" parent="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+</resources>
